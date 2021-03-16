@@ -1,0 +1,13 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "environment": {},
+  "secrets": [],
+  "endpoints": {
+    "lambdacounter": {
+      "method": "GET",
+      "file": "hs_lambda_counter.js",
+      "secrets": ["hubspot_api_key"]
+    }
+  }
+}
